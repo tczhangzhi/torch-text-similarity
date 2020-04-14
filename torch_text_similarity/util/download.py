@@ -8,7 +8,7 @@ except ImportError:
     torch_cache_home = os.path.expanduser(
         os.getenv('TORCH_HOME', os.path.join(os.getenv('XDG_CACHE_HOME', '~/.cache'), 'torch')))
 
-default_cache_path = os.path.join(torch_cache_home, 'semantic_text_similarity')
+default_cache_path = os.path.join(torch_cache_home, 'torch_text_similarity')
 
 MODEL_URL = {
     'clinical-bert-similarity':
