@@ -1,12 +1,12 @@
 from setuptools import setup, find_packages
 from setuptools.command.test import test as TestCommand
-from semantic_text_similarity import __version__, __authors__
+from torch_text_similarity import __version__, __authors__
 import sys
 
 packages = find_packages()
 
 def readme():
-    with open('README.md') as f:
+    with open('README.rst') as f:
         return f.read()
 
 class PyTest(TestCommand):
@@ -31,7 +31,6 @@ setup(
     license='MIT',
     description="Implementations of models and metrics for semantic text similarity. Includes fine-tuning and prediction of models",
     long_description=readme(),
-    long_description_content_type='text/markdown',
     packages=packages,
     url='https://github.com/tczhangzhi/torch-text-similarity',
     author=__authors__,
@@ -45,18 +44,12 @@ setup(
         'Topic :: Text Processing :: Linguistic',
         'Intended Audience :: Science/Research'
     ],
-
-    install_requires=[
-        'tqdm',
+    setup_requires=[
         'torch',
         'strsim',
         'fuzzywuzzy[speedup]',
         'pytorch-transformers==1.1.0',
-        'scipy'
-    ],
-    tests_require=["pytest"],
-    cmdclass={"pytest": PyTest},
-    include_package_data=True,
-    zip_safe=False
-
+        'scipy',
+        'tqdm'
+    ]
 )

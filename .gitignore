@@ -37,3 +37,7 @@
 
 # Python
 */__pycache__
+
+# Package
+dist/
+*.egg-info/
