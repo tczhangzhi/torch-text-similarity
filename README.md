@@ -50,7 +50,7 @@ learner = TextSimilarityLearner(batch_size=10,
                                 weight_decay=0,
                                 device=torch.device('cuda:0'))
 
-train_dataset, eval_dataset = train_eval_sts_a_dataset(learner.bert_tokenizer, path='/home/temp/Data/kaggle/data/train.csv')
+train_dataset, eval_dataset = train_eval_sts_a_dataset(learner.bert_tokenizer, path='./data/train.csv')
 
 learner.load_train_data(train_dataset)
 learner.train(epoch=1)
