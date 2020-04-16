@@ -44,7 +44,7 @@ setup(
         'Topic :: Text Processing :: Linguistic',
         'Intended Audience :: Science/Research'
     ],
-    setup_requires=[
+    install_requires=[
         'torch',
         'strsim',
         'fuzzywuzzy[speedup]',
