@@ -93,7 +93,7 @@ More [examples](/examples).
 
 # Installation
 
-The data sets in the examples can be found in Google Cloud Drive:
+The data sets in the examples can be found here:
 
 * [train.csv](https://github.com/tczhangzhi/torch-text-similarity/releases/download/v1.0.0-data/train.csv)
 * [test.csv](https://github.com/tczhangzhi/torch-text-similarity/releases/download/v1.0.0-data/test.csv)
