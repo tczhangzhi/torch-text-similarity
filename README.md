@@ -95,8 +95,8 @@ More [examples](/examples).
 
 The data sets in the examples can be found in Google Cloud Drive:
 
-* [train.csv](https://drive.google.com/open?id=1-qqNudszBOboQHNvQwHp6-hyBPxjGH1I)
-* [test.csv](https://drive.google.com/open?id=1Ph8F0d-JE61MAQicKx24GK29hRXciws9)
-* [sts-train.csv](https://drive.google.com/open?id=1BJCDxzKZDyvxzdtTFBP-gQzcZWmwClGX)
-* [sts-test.csv](https://drive.google.com/open?id=1NGrIg3DnbSjl4uKciL9WsiCFzK8Q726X)
-* [sts-dev.csv](https://drive.google.com/open?id=1OZxOC4Y9XU-ZTXVf78_DPu9edTZaYFRX)
+* [train.csv](https://github.com/tczhangzhi/torch-text-similarity/releases/download/v1.0.0-data/train.csv)
+* [test.csv](https://github.com/tczhangzhi/torch-text-similarity/releases/download/v1.0.0-data/test.csv)
+* [sts-train.csv](https://github.com/tczhangzhi/torch-text-similarity/releases/download/v1.0.0-data/sts-train.csv)
+* [sts-test.csv](https://github.com/tczhangzhi/torch-text-similarity/releases/download/v1.0.0-data/sts-test.csv)
+* [sts-dev.csv](https://github.com/tczhangzhi/torch-text-similarity/releases/download/v1.0.0-data/sts-dev.csv)
